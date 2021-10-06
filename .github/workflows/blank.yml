@@ -18,4 +18,4 @@ jobs:
       - name: Super-Linter
         uses: github/super-linter@v4.8.1
         env:
-          VALIDATE_HTML: true
+          VALIDATE_HTML: false
