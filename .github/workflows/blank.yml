@@ -21,8 +21,8 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
 
-          LINTERN_RULES_PATH: /
+          LINTER_RULES_PATH: /
           CSS_FILE_NAME: .stylelintrc.json
           JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.json
-          VALIDATE_HTML: false
-          VALIDATE_MARKDOWN: false
+          VALIDATE_CSS: true
+          VALIDATE_JAVASCRIPT_ES: true
