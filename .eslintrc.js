@@ -4,6 +4,7 @@ module.exports = {
     'es2021': true,
     'node': true
   },
+  'ignorePatterns': ['github/'],
   'extends': 'eslint:recommended',
   'parserOptions': {
     'ecmaVersion': 12,
