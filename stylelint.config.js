@@ -1,10 +1,8 @@
-{
-	"extends": "stylelint-config-standard",
-	"plugins": [
-		"stylelint-order"
-	],
-	"rules": {
-		"color-hex-case": "upper",
+module.exports = {
+  plugins: ['stylelint-order'],
+  extends: ['./stylelint.order.js'],
+  rules: {
+    "color-hex-case": "upper",
 		"color-hex-length": "short",
 		"color-named": "never",
 		"declaration-block-trailing-semicolon": "always",
@@ -35,8 +33,8 @@
 			}
 		],
 		"block-closing-brace-empty-line-before": "never",
-		"rule-empty-line-before": [
-			"always-multi-line"
-		]
+		"rule-empty-line-before": "always",
+    "max-empty-lines": 2,
+    "block-no-empty": true,
 	}
 }

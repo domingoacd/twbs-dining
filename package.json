@@ -14,16 +14,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    
-  },
+  "bugs": {},
   "homepage": "https://github.com/domingoacd/twbs-dining#readme",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.32.0",
-    "stylelint": "^13.13.1",
+    "stylelint": "^14.0.1",
     "stylelint-config-recess-order": "^2.5.0",
     "stylelint-order": "^4.1.0"
   }
