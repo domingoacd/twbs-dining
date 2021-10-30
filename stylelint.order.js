@@ -219,7 +219,7 @@ module.exports = {
           'background',
           'background-color',
           'background-image',
-          "-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient",
+          '-ms-filter:\\\'progid:DXImageTransform.Microsoft.gradient',
           'filter:progid:DXImageTransform.Microsoft.gradient',
           'filter:progid:DXImageTransform.Microsoft.AlphaImageLoader',
           'filter',
@@ -272,7 +272,7 @@ module.exports = {
           'box-shadow',
           'mix-blend-mode',
           'filter:progid:DXImageTransform.Microsoft.Alpha(Opacity',
-          "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
+          '-ms-filter:\\\'progid:DXImageTransform.Microsoft.Alpha',
           'opacity',
           '-ms-interpolation-mode',
         ],
@@ -338,4 +338,4 @@ module.exports = {
       },
     ],
   },
-}
+};
