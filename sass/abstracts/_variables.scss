@@ -2,11 +2,12 @@
  * Variables:
  *
  * Colors
+ * Spacers
  */
 
 
 // Colors
-//----------------------------------------------------------
+// ----------------------------------------------------------
 
 $white:    #FFF;
 $gray-100: #F9FAFB;
@@ -71,4 +72,25 @@ $theme-colors: (
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark
+);
+
+
+// Spacers
+//----------------------------------------------------------
+
+$spacer: 1rem; // 16px
+$spacers: (
+  0: 0,
+  1: $spacer * .25, // 4px
+  2: $spacer * .5, // 8px
+  3: $spacer * .875, // 14px
+  4: $spacer, // 16px
+  5: $spacer * 1.125, // 18px
+  6: $spacer * 1.5, // 24px
+  7: $spacer * 2 // 32px
+  8: $spacer * 2.5 // 40px
+  9: $spacer * 3 // 48px
+  10: $spacer * 3.5 // 56px
+  11: $spacer * 4 // 64px
+  12  : $spacer * 4.5 // 72px
 );
